@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cat's Weather</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Indie+Flower|Merienda+One|Pacifico" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <section class="weather">
+                
+            <div class="search_city">
+                <input type="text" id="search">
+                <label for="search">Search</label>
+                <input type="radio" name="units" id="cels">
+                <label for="cels">C</label>
+                <input type="radio" name="units" id="faren">
+                <label for="faren">F</label>
+            </div>
+            <input class="stars" id="star" type="checkbox" name="fav">
+            <label class="label_fav" for="star"><i class="fas fa-star"></i></label>
+            <div class="weather_main">
+                <div class="additional_info">
+                    <p class="wind">wind 4.0 <span class="wind_direction">&#8593;</span></p>
+                    <p class="pressure">pressure 725mm</p>
+                    <p class="humidity">humidity 50%</p>
+                    <p class="date">10.20.2019</p>
+                </div>
+                <div class="conditional_image">
+                        <i class="fas fa-cloud-sun"></i>
+                    <!-- <img src="img/stock-vector-fun-cat-astronaut-in-space-seamless-pattern-vector-cartoon-charters-editable-vector-illustration-1012808326.jpg" alt=""> -->
+                </div>
+                <div class="city_info">
+                    
+                    <p class="city">bratislava</p>
+                    <p class="temperature">23%</p>
+                    <p class="general_condition">sunny</p>
+                </div>
+            </div>
+            <div class="favourite_history">
+                <button type="button"> Favourite cities</button>
+                <button type="button">History</button>
+            </div>
+            <div class="forecast">
+                <div class="forecast_day">
+                    <p>Mon</p>
+                    <p>12:00</p>
+                    <i class="fas fa-sun"></i>
+                    <p>25 C</p>
+                    
+                </div>
+                <div class="forecast_day">
+                    <p>Mon</p>
+                    <p>12:00</p>
+                    <i class="fas fa-sun"></i>
+                    <p>25 C</p>
+                </div>
+                <div class="forecast_day">
+                    <p>Mon</p>
+                    <p>12:00</p>
+                    <i class="fas fa-sun"></i>
+                    <p>25 C</p>
+                </div>
+                <div class="forecast_day">
+                    <p>Mon</p>
+                    <p>12:00</p>
+                    <i class="fas fa-sun"></i>
+                    <p>25 C</p>
+                </div>
+                <div class="forecast_day">
+                    <p>Mon</p>
+                    <p>12:00</p>
+                    <i class="fas fa-sun"></i>
+                    <p>25 C</p>
+                </div>
+
+            </div>
+
+
+        </section>
+    </div>
+</body>
+</html>
